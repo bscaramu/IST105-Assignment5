@@ -24,7 +24,7 @@ attempts = []
 for attempt in range(1, 6):
     guess = random.randint(1, 100)
     if guess == secret_number:
-        attempts.append(f"Attempt {attempt}: {guess} (Correct!!!)")
+        attempts.append(f"Attempt {attempt}: {guess} (Correct!!!!)")
         break
     elif guess < secret_number:
         attempts.append(f"Attempt {attempt}: {guess} (Too low!!!)")
